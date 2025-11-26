@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler pages dev public",
-    "build": "echo 'No build step needed'"
+    "build": "echo 'No build step needed'",
+    "deploy": "echo 'Deploying to Cloudflare Pages'"
   },
   "devDependencies": {
     "wrangler": "^4.51.0"
