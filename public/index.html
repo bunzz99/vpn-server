@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN Subscription Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 VPN Subscription Service</h1>
+            <p>Powered by GitHub Pages + Cloudflare Pages</p>
+        </header>
+        
+        <main>
+            <div class="endpoints">
+                <h2>📡 API Endpoints</h2>
+                <div class="endpoint-list">
+                    <div class="endpoint-card">
+                        <h3>Subscription</h3>
+                        <code>/api/v1/sub?cc=ID,SG&limit=10</code>
+                        <a href="/api/v1/sub?cc=ID,SG&limit=5" target="_blank">Test</a>
+                    </div>
+                    
+                    <div class="endpoint-card">
+                        <h3>Health Check</h3>
+                        <code>/api/v1/check?target=1.1.1.1:443</code>
+                        <a href="/api/v1/check?target=1.1.1.1:443" target="_blank">Test</a>
+                    </div>
+                    
+                    <div class="endpoint-card">
+                        <h3>My IP</h3>
+                        <code>/api/v1/myip</code>
+                        <a href="/api/v1/myip" target="_blank">Test</a>
+                    </div>
+                    
+                    <div class="endpoint-card">
+                        <h3>Redirect Sub</h3>
+                        <code>/sub</code>
+                        <a href="/sub" target="_blank">Test</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info">
+                <h2>ℹ️ How to Use</h2>
+                <pre><code># Subscription API
+curl "https://your-domain.com/api/v1/sub?cc=ID,SG&limit=5"
+
+# Health Check
+curl "https://your-domain.com/api/v1/check?target=1.1.1.1:443"
+
+# WebSocket (VPN protocols)
+# Connect to: wss://your-domain.com/ws/your-proxy-config</code></pre>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Deployed on GitHub Pages + Cloudflare Pages</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
