@@ -1,0 +1,5 @@
+name = "vpn-server"
+compatibility_date = "2023-10-01"
+pages_build_output_dir = "./public"
+
+[env.production]
