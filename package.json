@@ -4,14 +4,10 @@
   "description": "VPN Server using GitHub Pages + Cloudflare Pages",
   "type": "module",
   "scripts": {
-    "dev": "wrangler pages dev public -- npm run build",
-    "build": "echo 'No build step needed'",
-    "deploy": "git add . && git commit -m 'deploy' && git push"
-  },
-  "dependencies": {
-    "ws": "^8.14.0"
+    "dev": "wrangler pages dev public",
+    "build": "echo 'No build step needed'"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "wrangler": "^4.51.0"
   }
 }
