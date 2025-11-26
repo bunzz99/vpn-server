@@ -1,5 +1,2 @@
-name = "vpn-server"
-compatibility_date = "2023-10-01"
-pages_build_output_dir = "./public"
-
-[env.production]
+# Untuk Pages Functions development saja
+compatibility_date = "2024-01-01"
